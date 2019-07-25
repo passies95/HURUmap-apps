@@ -17,8 +17,8 @@ DATABASES['default'] = dj_database_url.parse(DATABASE_URL)
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
 # Localise this instance of HURUmap
-HURUMAP['name'] = 'HURUmap Kenya'
-HURUMAP['url'] = os.environ.get('HURUMAP_URL', 'https://kenya.hurumap.org')
+HURUMAP['name'] = 'Malaika Foundation'
+HURUMAP['url'] = os.environ.get('HURUMAP_URL', 'https://pamojatrust.org')
 HURUMAP['country_code'] = 'KE'
 HURUMAP['country_name'] = 'Kenya'
 
@@ -70,7 +70,7 @@ HURUMAP['mapit'] = {
 
 HURUMAP['ga_tracking_id'] = 'UA-44795600-8'
 
-HURUMAP['twitter'] = '@Code4Africa'
+HURUMAP['twitter'] = '@pamoja_trust'
 
 HURUMAP['map_centre'] = [0.3051933453207569, 37.908818734483155]
 HURUMAP['map_zoom'] = 6
