@@ -71,6 +71,7 @@ HURUMAP['mapit'] = {
 HURUMAP['ga_tracking_id'] = 'UA-44795600-8'
 
 HURUMAP['twitter'] = '@pamoja_trust'
+HURUMAP['facebook'] = 'PamojaTrustPage'
 
 HURUMAP['map_centre'] = [0.3051933453207569, 37.908818734483155]
 HURUMAP['map_zoom'] = 6
